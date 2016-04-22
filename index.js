@@ -20,7 +20,7 @@ app.get('/occupations/latest', mainCtrl.getLatestOccupation);
 app.get('/hobbies', mainCtrl.getHobbies);
 app.get('/hobbies/:type', mainCtrl.getHobbiesByType);
 
-// app.put('/name', mainCtrl.putName);
+app.put('/name', mainCtrl.putName);
 // app.put('/location', mainCtrl.putLocation);
 app.post('/occupations', mainCtrl.createOccupation);
 // app.post('/hobbies', mainCtrl.createHobbies);
